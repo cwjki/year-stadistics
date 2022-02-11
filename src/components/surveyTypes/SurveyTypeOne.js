@@ -4,10 +4,13 @@ import * as Survey from 'survey-react'
 import QuestionOne from '../surveys/QuestionOne'
 
 
-const SurveyTypeOne = () => {
+const SurveyTypeOne = (prop) => {
   return (
     <Survey.Survey
-        json={QuestionOne} 
+        showCompletedPage={false}
+        json={QuestionOne}
+        
+        onComplete ={data => prop.showCompletedPage(data.valuesHash)}
     />
   )
 }
