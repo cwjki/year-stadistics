@@ -5,8 +5,8 @@ import SurveyTwo from './components/surveyDisplay/SurveyTwo';
 function App() {
   return (
     <div>
-      <SurveyOne />
-      {/* <SurveyTwo /> */}
+      {/* <SurveyOne /> */}
+      <SurveyTwo />
     </div>
   );
 }
