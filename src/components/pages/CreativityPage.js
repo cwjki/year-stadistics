@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react'
-import CreativitySurvey from '../surveyTypes/CreativitySurvey';
+import CreativitySurvey from '../surveys/CreativitySurvey';
 
 const CreativityPage = () => {
     const [showPage, setShowPage] = useState(true)

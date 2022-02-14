@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react'
-import FreeTimeSurvey from '../surveys/FreeTimeSurvey';
+import SubjectsSurvey from '../surveys/SubjectsSurvey';
 
-const FreeTimePage = () => {
+const SubjectsPage = () => {
     const [showPage, setShowPage] = useState(true)
 
     const onCompletePage = useCallback((data) =>{
@@ -12,7 +12,7 @@ const FreeTimePage = () => {
     const setFinalPage = () => {
         return(
             <main>
-                <h1>Gracias por completar la encuesta del Tiempo Libre.</h1>
+                <h1>Gracias por completar la encuesta de Creatividad.</h1>
             </main>
         )
     }
@@ -21,11 +21,11 @@ const FreeTimePage = () => {
     return (
         <div>
             {
-                showPage? <FreeTimeSurvey showCompletedPage={data => onCompletePage(data)} />
+                showPage? <SubjectsSurvey showCompletedPage={data => onCompletePage(data)} />
                         : setFinalPage()
             } 
         </div>
     )
 }
 
-export default FreeTimePage
+export default SubjectsPage

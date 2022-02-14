@@ -1,10 +1,9 @@
 import React from 'react'
 import 'survey-react/survey.css'
 import * as Survey from 'survey-react'
-import CreativityQuestions from '../surveys/CreativityQuestions';
+import CreativityQuestions from '../questions/CreativityQuestions';
 
 const CreativitySurvey = (prop) => {
-    console.log(prop)
     return (
         <Survey.Survey
             json={CreativityQuestions}

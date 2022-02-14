@@ -8,6 +8,8 @@ import HumorPage from './components/pages/HumorPage'
 import AllSurveysPage from './components/pages/AllSurveysPage'
 import CreativityPage from './components/pages/CreativityPage'
 import FreeTimePage from './components/pages/FreeTimePage'
+import SubjectsPage from './components/pages/SubjectsPage'
+
 
 
 
@@ -21,7 +23,7 @@ function App() {
         <Route path='/survey/Creativity' element={<CreativityPage />} />
         <Route path='/survey/Humor' element={<HumorPage />} />
         <Route path='/survey/FreeTime' element={<FreeTimePage />} />
-        <Route path='/survey/Creativity' element={<CreativityPage />} />
+        <Route path='/survey/Subject' element={<SubjectsPage />} />
 
         <Route path="*" element={ <Nothing /> } />
 

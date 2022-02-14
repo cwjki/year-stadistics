@@ -1,17 +1,16 @@
 import React from 'react'
 import 'survey-react/survey.css'
 import * as Survey from 'survey-react'
-import HumorQuestions from '../surveys/HumorQuestions';
+import SubjectsQuestions from '../questions/SubjectsQuestions';
 
-const HumorSurvey = (prop) => {
-    console.log(prop)
+const SubjectsSurvey = (prop) => {
     return (
         <Survey.Survey
-            json={HumorQuestions}
+            json={SubjectsQuestions}
             showCompletedPage={false}
             onComplete={data => prop.showCompletedPage(data.valuesHash)}
         />
     )
 }
 
-export default HumorSurvey
+export default SubjectsSurvey
