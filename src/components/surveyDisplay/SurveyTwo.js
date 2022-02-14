@@ -12,7 +12,7 @@ const SurveyTwo = () => {
     const setFinalPage = () => {
         return(
             <main>
-                <h1>Gracias por completar el formulario Uno</h1>
+                <h1>Gracias por completar el formulario Dos</h1>
             </main>
         )
     }

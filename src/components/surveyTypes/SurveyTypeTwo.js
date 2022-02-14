@@ -9,7 +9,7 @@ const SurveyTypeTwo = (prop) => {
     <Survey.Survey
         json={QuestionTwo}
         showCompletedPage={false}
-        onComplete ={data => prop.showCompletedPage(data.valueHash)}
+        onComplete ={data => prop.showCompletedPage(data.valuesHash)}
     />
   )
 }

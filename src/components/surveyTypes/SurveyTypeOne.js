@@ -7,8 +7,8 @@ import QuestionOne from '../surveys/QuestionOne'
 const SurveyTypeOne = (prop) => {
   return (
     <Survey.Survey
-        showCompletedPage={false}
         json={QuestionOne}
+        showCompletedPage={false}
         
         onComplete ={data => prop.showCompletedPage(data.valuesHash)}
     />
