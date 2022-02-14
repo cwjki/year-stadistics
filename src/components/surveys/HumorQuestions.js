@@ -1,4 +1,5 @@
 const HumorQuestions = {
+ "id": "2",
  "locale": "es",
  "title": "Test del Sentido del Humor",
  "description": "Responda este cuestionario para averiguar cómo califica su \"sentido del humor\"",

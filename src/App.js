@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Routes>
 
-        <Route path='/' element={ <AllSurveysPage />} />
+        <Route path='/' element={ <SurveyOne />} />
         {/* <Route path='/survey/:id' element={} /> */}
         <Route path="*" element={ <Nothing /> } />
 
