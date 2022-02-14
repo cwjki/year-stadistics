@@ -1,4 +1,6 @@
-const FreeTime = {
+const FreeTimeQuestions = {
+ "locale": "es",
+ "title": "¿A qué dedicas tu tiempo libre?",
  "logoPosition": "right",
  "pages": [
   {
@@ -6,7 +8,7 @@ const FreeTime = {
    "elements": [
     {
      "type": "checkbox",
-     "name": "Practicar deportes",
+     "name": "deportes",
      "title": "¿Practicas algún deporte? ",
      "isRequired": true,
      "choices": [
@@ -27,7 +29,7 @@ const FreeTime = {
     },
     {
      "type": "checkbox",
-     "name": "entrenamiento",
+     "name": "entrenamientos",
      "title": "¿Cuáles entrenamientos realizas? ",
      "isRequired": true,
      "choices": [
@@ -50,8 +52,14 @@ const FreeTime = {
      "selectAllText": "Todos"
     }
    ],
-   "title": "¿A qué dedicas tu tiempo libre?",
-   "description": "Deportes y Entrenamientos"
+   "title": {
+    "default": "¿A qué dedicas tu tiempo libre?",
+    "es": "Deportes y Entrenamientos\n"
+   },
+   "description": {
+    "default": "Deportes y Entrenamientos",
+    "es": "\n"
+   }
   },
   {
    "name": "Géneros y Tipos de Programas",
@@ -78,7 +86,7 @@ const FreeTime = {
     },
     {
      "type": "checkbox",
-     "name": "generos",
+     "name": "tvGender",
      "title": "¿Cuáles géneros te gustan? ",
      "isRequired": true,
      "choices": [
@@ -101,7 +109,7 @@ const FreeTime = {
     },
     {
      "type": "checkbox",
-     "name": "programas",
+     "name": "programs",
      "title": "¿Qué tipo de programas prefieres? ",
      "isRequired": true,
      "choices": [
@@ -120,8 +128,14 @@ const FreeTime = {
      "selectAllText": "Todos"
     }
    ],
-   "title": "¿A qué dedicas tu tiempo libre? ",
-   "description": "Géneros y Tipos de Programas"
+   "title": {
+    "default": "¿A qué dedicas tu tiempo libre? ",
+    "es": "Géneros y Tipos de Programas"
+   },
+   "description": {
+    "default": "Géneros y Tipos de Programas",
+    "es": "\n"
+   }
   },
   {
    "name": "Sagas Favoritas",
@@ -162,7 +176,7 @@ const FreeTime = {
     },
     {
      "type": "checkbox",
-     "name": "pelis",
+     "name": "films",
      "title": "¿Cuáles son tus pelis favoritas? ",
      "isRequired": true,
      "choices": [
@@ -203,7 +217,7 @@ const FreeTime = {
     },
     {
      "type": "checkbox",
-     "name": "animados",
+     "name": "cartoons",
      "title": "¿Cuáles son tus muñes adoras? ",
      "isRequired": true,
      "choices": [
@@ -296,7 +310,7 @@ const FreeTime = {
     },
     {
      "type": "checkbox",
-     "name": "anime",
+     "name": "animes",
      "title": "¿Cuáles animes te gustan? ",
      "isRequired": true,
      "choices": [
@@ -332,15 +346,21 @@ const FreeTime = {
      "selectAllText": "Todos"
     }
    ],
-   "title": "¿A qué dedicas tu tiempo libre? ",
-   "description": "Tus Favoritos"
+   "title": {
+    "default": "¿A qué dedicas tu tiempo libre? ",
+    "es": "Tus Favoritos"
+   },
+   "description": {
+    "default": "Tus Favoritos",
+    "es": "\n"
+   }
   },
   {
-   "name": "Videojuegos",
+   "name": "videogames",
    "elements": [
     {
      "type": "checkbox",
-     "name": "videogameType",
+     "name": "videogamesGender",
      "title": "¿Qué tipos de videojuegos te gustan?",
      "isRequired": true,
      "choices": [
@@ -367,7 +387,7 @@ const FreeTime = {
     },
     {
      "type": "checkbox",
-     "name": "videogameFav",
+     "name": "videogamesFav",
      "title": "¿Cuáles son tus videojuegos favoritos? ",
      "isRequired": true,
      "choices": [
@@ -424,8 +444,14 @@ const FreeTime = {
      "selectAllText": "Todos"
     }
    ],
-   "title": "¿A qué dedicas tu tiempo libre? ",
-   "description": "Videojuegos"
+   "title": {
+    "default": "¿A qué dedicas tu tiempo libre? ",
+    "es": "Videojuegos"
+   },
+   "description": {
+    "default": "Videojuegos",
+    "es": "\n"
+   }
   },
   {
    "name": "Música",
@@ -461,7 +487,7 @@ const FreeTime = {
     },
     {
      "type": "checkbox",
-     "name": "artist",
+     "name": "artists",
      "title": "¿Cuáles artistas sueles escuchar? ",
      "isRequired": true,
      "choices": [
@@ -542,8 +568,14 @@ const FreeTime = {
      "selectAllText": "Todos"
     }
    ],
-   "title": "¿A qué dedicas tu tiempo libre? ",
-   "description": "Música"
+   "title": {
+    "default": "¿A qué dedicas tu tiempo libre? ",
+    "es": "Música\n"
+   },
+   "description": {
+    "default": "Música",
+    "es": "\n"
+   }
   },
   {
    "name": "Literatura",
@@ -577,7 +609,7 @@ const FreeTime = {
     },
     {
      "type": "checkbox",
-     "name": "autors",
+     "name": "authors",
      "title": "¿Cuáles son tus autores preferidos?  ",
      "isRequired": true,
      "choices": [
@@ -649,10 +681,16 @@ const FreeTime = {
      "selectAllText": "Todos"
     }
    ],
-   "title": "¿A qué dedicas tu tiempo libre? ",
-   "description": "Literatura"
+   "title": {
+    "default": "¿A qué dedicas tu tiempo libre? ",
+    "es": "Literatura\n"
+   },
+   "description": {
+    "default": "Literatura",
+    "es": "\n\n"
+   }
   }
  ]
 }
 
-export default FreeTime
+export default FreeTimeQuestions
