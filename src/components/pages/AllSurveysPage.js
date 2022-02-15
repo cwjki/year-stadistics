@@ -1,16 +1,32 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
+import CreativityCard from '../cards/CreativityCard'
+import FreeTimeCard from '../cards/FreeTimeCard'
+import HumorCard from '../cards/HumorCard'
+import SubjectsCard from '../cards/SubjectsCard'
 
 const AllSurveysPage = () => {
 
   return (
-    <div>
-      <div><Link to={`/survey/Creativity`}>Test de Creatividad</Link></div>
-      <div><Link to={`/survey/Humor`}>Test de Humor</Link></div>
-      <div><Link to={`/survey/Subject`}>Test de Asignaturas</Link></div>
-      <div><Link to={`/survey/FreeTime`}>Test de Tiempo Libre</Link></div>
-    </div>
+      <div>
+        <div className="container">
+          <div className="row">
+              <div className="col-md-3">
+                  <CreativityCard />
+              </div>
+              <div className="col-md-3">
+                  <HumorCard />
+              </div>
+              <div className="col-md-3">
+                  <FreeTimeCard />
+              </div>
+              <div className="col-md-3">
+                  <SubjectsCard />
+              </div>
+          </div>
+        </div>
+
+      </div>
   )
 }
 

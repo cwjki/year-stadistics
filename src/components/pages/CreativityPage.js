@@ -11,6 +11,7 @@ const CreativityPage = () => {
 
     const setFinalPage = () => {
         return(
+            
             <main>
                 <h1>Gracias por completar la encuesta de Creatividad.</h1>
             </main>
