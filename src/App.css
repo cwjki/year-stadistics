@@ -1,3 +1,8 @@
 .App {
-    /* background: #0F2027; */
+    background-color: #d9d9d9;
+}
+
+.alert-custom {
+    background-color: #F5D86E;
+    color: #fff;
 }

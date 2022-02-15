@@ -4,7 +4,7 @@ import creativityPic from '../../assets/creativity.jpg';
 
 const CreativityCard = () => {
   return (
-    <div className="card text-center bg-dark">
+    <div className="card text-center bg-dark h-100">
         <img src={creativityPic} alt="" />
         <div className="card-body text-light">
             <h4 className="card-title">Test de Creatividad</h4>

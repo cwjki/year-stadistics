@@ -4,7 +4,7 @@ import humorPic from '../../assets/humor.jpg';
 
 const HumorCard = () => {
   return (
-    <div className="card text-center bg-dark">
+    <div className="card text-center bg-dark h-100">
         <img src={humorPic} alt="" />
         <div className="card-body text-light">
             <h4 className="card-title">Test de Humor</h4>

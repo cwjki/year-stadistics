@@ -8,8 +8,18 @@ import SubjectsCard from '../cards/SubjectsCard'
 const AllSurveysPage = () => {
 
   return (
+    <div>
+
       <div>
-        <div className="container">
+        <nav className="navbar navbar-light p-3 mb-3">
+          <form className="container-fluid justify-content-end">
+            <button className="btn btn-sm btn-outline-success" type="button">Iniciar sesión</button>
+          </form>
+        </nav>
+      </div>
+      
+
+      <div className="d-flex flex-column">
           <div className="row">
               <div className="col-md-3">
                   <CreativityCard />
@@ -24,9 +34,22 @@ const AllSurveysPage = () => {
                   <SubjectsCard />
               </div>
           </div>
-        </div>
-
       </div>
+
+       <nav className="navbar navbar-light bg-dark mt-4 p-4 d-flex justify-content-center" >
+         <span className="border border-secondary text-success text-center p-1">
+            <p className="mt-2"> Las tests se realizarán de forma anónima, y por tanto, la información que de ellos
+                se extraiga NO será usada en su contra :) 
+            </p>
+        </span>
+        
+      </nav>
+
+      
+
+    </div>
+
+     
   )
 }
 

@@ -12,10 +12,8 @@ import SubjectsPage from './components/pages/SubjectsPage'
 
 function App() {
   return (
-    <div className="App">
-
-      <div className="container">
-        <Header />
+    <div className="App bg-dark">
+      <div>
         <Routes>
           <Route path='/' element={ <AllSurveysPage />} />
           <Route path='/survey/Creativity' element={<CreativityPage />} />
@@ -25,7 +23,7 @@ function App() {
           <Route path="*" element={ <Nothing /> } />
         </Routes>
       </div>
-
+    
     </div>
     
   );

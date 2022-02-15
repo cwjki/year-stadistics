@@ -4,7 +4,7 @@ import subjectsPic from '../../assets/subjects.jpg';
 
 const SubjectsCard = () => {
   return (
-    <div className="card text-center bg-dark">
+    <div className="card text-center bg-dark h-100">
         <img src={subjectsPic} alt="" />
         <div className="card-body text-light">
             <h4 className="card-title">Test de Asignaturas</h4>
