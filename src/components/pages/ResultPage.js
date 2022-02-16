@@ -1,19 +1,19 @@
 import React from 'react'
+import CreativityHumorResultCard from '../cards/CreativityHumorResultCard'
+import FreeTimeResultCard from '../cards/FreeTimeResultCard'
+import SubjectsResultCard from '../cards/SubjectsResultCard'
 
-import CreativityCard from '../cards/CreativityCard'
-import FreeTimeCard from '../cards/FreeTimeCard'
-import HumorCard from '../cards/HumorCard'
-import SubjectsCard from '../cards/SubjectsCard'
 
-const AllSurveysPage = () => {
+
+const ResultPage = () => {
 
   return (
     <div>
 
       <div>
         <nav className="navbar navbar-light p-3 mb-3">
-          <form className="container-fluid justify-content-end">
-            <a href='/results' className="btn btn-md btn-outline-success" type="button">Resultados</a>
+          <form className="container-fluid justify-content-start">
+            <a href='/' className="btn btn-md btn-outline-success" type="button">Página Principal</a>
           </form>
         </nav>
       </div>
@@ -21,17 +21,14 @@ const AllSurveysPage = () => {
 
       <div className="d-flex flex-column">
           <div className="row">
-              <div className="col-md-3">
-                  <CreativityCard />
+              <div className="col-md-4">
+                  <CreativityHumorResultCard />
               </div>
-              <div className="col-md-3">
-                  <HumorCard />
+              <div className="col-md-4">
+                  <FreeTimeResultCard />
               </div>
-              <div className="col-md-3">
-                  <FreeTimeCard />
-              </div>
-              <div className="col-md-3">
-                  <SubjectsCard />
+              <div className="col-md-4">
+                  <SubjectsResultCard />
               </div>
           </div>
       </div>
@@ -53,4 +50,4 @@ const AllSurveysPage = () => {
   )
 }
 
-export default AllSurveysPage
+export default ResultPage

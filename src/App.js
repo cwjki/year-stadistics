@@ -10,6 +10,12 @@ import CreativityPage from './components/pages/CreativityPage'
 import FreeTimePage from './components/pages/FreeTimePage'
 import SubjectsPage from './components/pages/SubjectsPage'
 
+import ResultPage from './components/pages/ResultPage';
+import ResultCH from './components/pages/CreativityHumorResultPage'
+import FreeTimeResultCard from './components/cards/FreeTimeResultCard'
+import SubjectsResultPage from './components/pages/SubjectsResultPage'
+
+
 function App() {
   return (
     <div className="App bg-dark">
@@ -20,6 +26,13 @@ function App() {
           <Route path='/survey/Humor' element={<HumorPage />} />
           <Route path='/survey/FreeTime' element={<FreeTimePage />} />
           <Route path='/survey/Subjects' element={<SubjectsPage />} />
+          <Route path='/results/' element={<ResultPage />} />
+          <Route path='results/creativity-humor' element={<ResultCH />} />
+          <Route path='results/free-time' element={<FreeTimeResultCard />} />
+          <Route path='results/subjects' element={<SubjectsResultPage />} />
+
+
+
           <Route path="*" element={ <Nothing /> } />
         </Routes>
       </div>
