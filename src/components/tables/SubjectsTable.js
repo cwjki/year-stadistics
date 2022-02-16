@@ -1,53 +1,40 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
-const SubjectsTable = () => {
+const SubjectsTable = ({ data, column }) => {
+    console.log(data)
+    console.log(column)
 
-    const [subjects, setSubjects] = useState({Results : []})
+    return (
+        <div className="table-responsive">
+            <table className='table table-dark table-striped table-hover align-middle'>
+                <thead>
+                    <tr>
+                        {column.map((item, index) => <TableHeadItem item={item}/>)}
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        data.map((item,index) => <TableRow item={item} column={column}/>)
+                    }
+                </tbody>
+            </table>
 
-    useEffect(() => {
-        const fetchSubjectsList = async () => {
-            const { data } = await fetch ("")
-            setSubjects({subjects: data})
-        }
-        fetchSubjectsList()
-    }, [setSubjects])
-
-  return (
-    <div>
-        <table className="table bg-light">
-            <thead>
-                <tr>
-                    <th scope='col'>Asignatura</th>
-                    <th scope='col'>Me gusta</th>
-                    <th scope='col'>Meh</th>
-                    <th scope='col'>No me gusta</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope='row'></th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>MBlahark</td>
-                </tr>
-                <tr>
-                    <th scope='row'>1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>MBlahark</td>
-                </tr>
-                <tr>
-                    <th scope='row'>1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>MBlahark</td>
-                </tr>
-                
-            </tbody>
-        </table>  
-
-    </div>
-  )
+        </div>
+    )
 }
+
+const TableHeadItem = ({ item }) => <th scope="col">{item.heading}</th>
+
+const TableRow = ({ item, column }) => (
+    <tr>
+        {column.map((columnItem, index) => {
+            return (
+                <td>{item[`${columnItem.value}`]}</td>
+            )
+        })}
+    </tr>
+)
+    
+
 
 export default SubjectsTable

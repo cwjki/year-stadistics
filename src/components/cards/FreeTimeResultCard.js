@@ -1,5 +1,5 @@
 import React from 'react'
-import freeTimePic from '../../assets/freetime.jpg';
+import freeTimePic from '../../assets/freetimeResult.jpg';
 
 
 const FreeTimeResultCard = () => {

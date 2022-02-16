@@ -14,7 +14,6 @@ import ResultPage from './components/pages/ResultPage';
 import ResultCH from './components/pages/CreativityHumorResultPage'
 import FreeTimeResultCard from './components/cards/FreeTimeResultCard'
 import SubjectsResultPage from './components/pages/SubjectsResultPage'
-import ExamplePage from './components/pages/ExamplePage'
 
 
 function App() {
@@ -30,7 +29,7 @@ function App() {
           <Route path='/results/' element={<ResultPage />} />
           <Route path='results/creativity-humor' element={<ResultCH />} />
           <Route path='results/free-time' element={<FreeTimeResultCard />} />
-          <Route path='results/subjects' element={<ExamplePage />} />
+          <Route path='results/subjects' element={<SubjectsResultPage />} />
 
 
 

@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "subjects": [
+    {
+        "name": "\u00c1lgebra", 
+        "likes": 3, 
+        "dislikes": 0, 
+        "dontcare": 0
+    },
+    {
+        "name": "An\u00e1lisis Matem\u00e1tico",
+        "likes": 0, 
+        "dislikes": 0, 
+        "dontcare": 3
+    },
+    {
+        "name": "Programaci\u00f3n",
+        "likes": 0,
+        "dislikes": 0,
+        "dontcare": 3
+    }, 
+    {
+        "name": "Filosof\u00eda",
+        "likes": 0, 
+        "dislikes": 3, 
+        "dontcare": 0
+    }, 
+    {
+        "name": "L\u00f3gica", 
+        "likes": 3, 
+        "dislikes": 0, 
+        "dontcare": 0
+    }
+  ],
+  "creativity": [
+    {
+        "no creativo": 10,
+        "debajo promedio": 14, 
+        "promedio": 6, 
+        "encima promedio": 9, 
+        "muy creativo": 5, 
+        "excepcional": 2
+    }
+  ],
+  "humor": [
+    {
+        "serio": 4, 
+        "pobre": 6, 
+        "justo": 5, 
+        "promedio": 10, 
+        "excelente": 8
+    }
+  ]
+}
