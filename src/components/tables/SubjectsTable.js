@@ -1,6 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const SubjectsTable = () => {
+
+    const [subjects, setSubjects] = useState({Results : []})
+
+    useEffect(() => {
+        const fetchSubjectsList = async () => {
+            const { data } = await fetch ("")
+            setSubjects({subjects: data})
+        }
+        fetchSubjectsList()
+    }, [setSubjects])
+
   return (
     <div>
         <table className="table bg-light">
