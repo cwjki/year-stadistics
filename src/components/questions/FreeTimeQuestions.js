@@ -1,5 +1,4 @@
 const FreeTimeQuestions = {
- "id": "3",
  "locale": "es",
  "title": "¿A qué dedicas tu tiempo libre?",
  "logoPosition": "right",
