@@ -9,9 +9,9 @@ const FreeTimeCard = () => {
         <div className="card-body text-light">
             <h4 className="card-title">Test de Tiempo Libre</h4>
             <p className="card-text">
-              Tener tiempo libre es indispensable para la calidad de vida de las personas. Contribuye a renovar la fuerza 
-              y la energía mental y física. Realiza 
-              este test teniendo en cuenta las elecciones que sueles hacer para disfrutar de tus tiempos de ocio.
+              Tener tiempo libre es indispensable para la calidad de vida de laspersonas. Contribuye a renovar la
+              fuerza y la energía, tanto mental como física. Las elecciones que realices para ocupar estos ratos 
+              deben reportarte felicidad, satisfacción y relajación. ¿Cuáles suelen ser tus elecciones?
 
             </p>
             <a href="/survey/FreeTime" className="btn btn-outline-secondary  rounded-0">Empezar</a>

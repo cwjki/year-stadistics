@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Nothing = () => {
+const Thanks = () => {
     return (
 
       <div>
@@ -14,12 +14,12 @@ const Nothing = () => {
         </div>
 
         <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-          <main className="px-3 text-warning">
-            <h1>No hay nada aquí</h1>
+          <main className="px-3 text-success">
+            <h1>Gracias por completar el test</h1>
           </main>
         </div>
       </div>
     )
 }
 
-export default Nothing
+export default Thanks

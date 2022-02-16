@@ -1,19 +1,23 @@
 import React, { useState, useCallback } from 'react'
 import FreeTimeSurvey from '../surveys/FreeTimeSurvey';
+import Thanks from '../Thanks'
+import axios from 'axios'
+
 
 const FreeTimePage = () => {
     const [showPage, setShowPage] = useState(true)
 
     const onCompletePage = useCallback((data) =>{
-        console.log(data)
+        axios.post("http://localhost:8000/posts", data)
+            .then((res) => console.log(res))
+            .catch(err => console.log(err))
+            
         setShowPage(!showPage)
     }, [showPage])
 
     const setFinalPage = () => {
         return(
-            <main>
-                <h1>Gracias por completar la encuesta del Tiempo Libre.</h1>
-            </main>
+            <Thanks />
         )
     }
 

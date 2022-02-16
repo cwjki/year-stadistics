@@ -1,19 +1,23 @@
 import React, { useState, useCallback } from 'react'
+import axios from 'axios';
 import HumorSurvey from '../surveys/HumorSurvey';
+import Thanks from '../Thanks'
+
 
 const HumorPage = () => {
     const [showPage, setShowPage] = useState(true)
 
     const onCompletePage = useCallback((data) =>{
-        console.log(data)
+        axios.post("http://localhost:8000/posts", data)
+            .then((res) => console.log(res))
+            .catch(err => console.log(err))
+
         setShowPage(!showPage)
     }, [showPage])
 
     const setFinalPage = () => {
         return(
-            <main>
-                <h1>Gracias por completar la encuesta del Humor.</h1>
-            </main>
+            <Thanks />
         )
     }
 

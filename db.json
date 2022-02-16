@@ -4,6 +4,69 @@
       "id": 1,
       "title": "json-server",
       "author": "typicode"
+    },
+    {
+      "humor1": [
+        "2"
+      ],
+      "humor2": [
+        "6"
+      ],
+      "humor4": [
+        "3"
+      ],
+      "humor5": [
+        "6"
+      ],
+      "humor6": [
+        "7"
+      ],
+      "humor7": [
+        "6"
+      ],
+      "humor8": [
+        "3"
+      ],
+      "humor9": [
+        "6"
+      ],
+      "humor10": [
+        "1"
+      ],
+      "humor12": [
+        "7"
+      ],
+      "humor11": [
+        "7"
+      ],
+      "humor13": [
+        "6"
+      ],
+      "humor14": [
+        "6"
+      ],
+      "humor15": [
+        "7"
+      ],
+      "humor16": [
+        "2"
+      ],
+      "humor17": [
+        "4"
+      ],
+      "humor18": [
+        "7"
+      ],
+      "humor19": [
+        "6"
+      ],
+      "humor20": [
+        "7"
+      ],
+      "humor3": [
+        "7"
+      ],
+      "id": 2
     }
   ],
   "comments": [
@@ -18,53 +81,53 @@
   },
   "subjects": [
     {
-        "name": "\u00c1lgebra", 
-        "likes": 3, 
-        "dislikes": 0, 
-        "dontcare": 0
+      "name": "Álgebra",
+      "likes": 3,
+      "dislikes": 0,
+      "dontcare": 0
     },
     {
-        "name": "An\u00e1lisis Matem\u00e1tico",
-        "likes": 0, 
-        "dislikes": 0, 
-        "dontcare": 3
+      "name": "Análisis Matemático",
+      "likes": 0,
+      "dislikes": 0,
+      "dontcare": 3
     },
     {
-        "name": "Programaci\u00f3n",
-        "likes": 0,
-        "dislikes": 0,
-        "dontcare": 3
-    }, 
+      "name": "Programación",
+      "likes": 0,
+      "dislikes": 0,
+      "dontcare": 3
+    },
     {
-        "name": "Filosof\u00eda",
-        "likes": 0, 
-        "dislikes": 3, 
-        "dontcare": 0
-    }, 
+      "name": "Filosofía",
+      "likes": 0,
+      "dislikes": 3,
+      "dontcare": 0
+    },
     {
-        "name": "L\u00f3gica", 
-        "likes": 3, 
-        "dislikes": 0, 
-        "dontcare": 0
+      "name": "Lógica",
+      "likes": 3,
+      "dislikes": 0,
+      "dontcare": 0
     }
   ],
   "creativity": [
     {
-        "no creativo": 10,
-        "debajo promedio": 14, 
-        "promedio": 6, 
-        "encima promedio": 9, 
-        "muy creativo": 5, 
-        "excepcional": 2
+      "no creativo": 10,
+      "debajo promedio": 14,
+      "promedio": 6,
+      "encima promedio": 9,
+      "muy creativo": 5,
+      "excepcional": 2
     }
   ],
   "humor": [
     {
-        "serio": 4, 
-        "pobre": 6, 
-        "justo": 5, 
-        "promedio": 10, 
-        "excelente": 8
+      "serio": 4,
+      "pobre": 6,
+      "justo": 5,
+      "promedio": 10,
+      "excelente": 8
     }
   ]
 }

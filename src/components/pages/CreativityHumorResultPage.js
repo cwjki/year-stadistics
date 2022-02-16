@@ -1,8 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import CreativityChart from '../charts/CreativityChart'
 import HumorChart from '../charts/HumorChart'
+import axios from 'axios'
 
 const ResultPage = () => {
+  const [humorData, setHumorData] = useState([])
+  const [creativityData, setCreativityData] = useState([])
+
+  useEffect(() => {
+    axios("http://localhost:8000/creativity")
+      .then((res) => setCreativityData(res.data))
+      .catch(err => console.log(err))
+
+    axios("http://localhost:8000/humor")
+      .then((res) => setHumorData(res.data))
+      .catch(err => console.log(err))
+
+    
+  }, [])
+
+
+
   return (
     <div>
 
@@ -15,11 +33,13 @@ const ResultPage = () => {
         </div>
 
         <div className="p-3">
-            <HumorChart />
+            <CreativityChart data={creativityData} />
         </div>
-        <div className="p-3">
-            <CreativityChart />
+
+        <div className="mt-5 ms-5">
+            <HumorChart data={humorData}/>
         </div>
+        
     </div>
   )
 }
