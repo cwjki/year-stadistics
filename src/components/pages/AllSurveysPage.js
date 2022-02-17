@@ -8,7 +8,7 @@ import SubjectsCard from '../cards/SubjectsCard'
 const AllSurveysPage = () => {
 
   return (
-    <div>
+    <div className='container'>
 
       <div>
         <nav className="navbar navbar-light p-3 mb-3">

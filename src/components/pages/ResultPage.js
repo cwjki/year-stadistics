@@ -8,7 +8,7 @@ import SubjectsResultCard from '../cards/SubjectsResultCard'
 const ResultPage = () => {
 
   return (
-    <div>
+    <div className="container">
 
       <div>
         <nav className="navbar navbar-light p-3 mb-3">
@@ -33,16 +33,16 @@ const ResultPage = () => {
           </div>
       </div>
 
-       <nav className="navbar navbar-light bg-dark mt-4 p-4 d-flex justify-content-center" >
-         <span className="border border-secondary text-success text-center p-1">
-            <p className="mt-2"> Las tests se realizarán de forma anónima, y por tanto, la información que de ellos
-                se extraiga NO será usada en su contra :) 
-            </p>
-        </span>
-        
-      </nav>
+      <div>
+         <nav className="navbar navbar-light bg-dark mt-4 p-5 d-flex justify-content-center" >
+          <span className="border border-secondary text-success text-center p-1">
+              <p className="mt-2"> Las tests se realizarán de forma anónima, y por tanto, la información que de ellos
+                  se extraiga NO será usada en su contra :) 
+              </p>
+            </span>
+        </nav>
+      </div>
 
-      
 
     </div>
 

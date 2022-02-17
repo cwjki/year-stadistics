@@ -7,8 +7,8 @@ const CreativityHumorResultCard = () => {
     <div className="card text-center bg-dark h-100">
         <img src={creativityHumorPic} alt="" />
         <div className="card-body text-light">
-            <h4 className="card-title">Resultados de los test de Creatividad y Humor</h4>
-            <a href="/results/creativity-humor" className="btn btn-outline-secondary rounded-0">Ver</a>
+            <h4 className="card-title">Resultados de los tests de Creatividad y Humor</h4>
+            <a href="/results/creativity-humor" className="btn btn-outline-secondary rounded-0 mt-5">Ver</a>
 
         </div>
     </div>
