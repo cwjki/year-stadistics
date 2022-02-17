@@ -16,7 +16,7 @@ const FreeTimeCard = () => {
 				</p>
 				<a
 					href="/survey/FreeTime"
-					className="btn btn-outline-secondary  rounded-0"
+					className="btn btn-outline-secondary mt-4 rounded-0"
 				>
 					Empezar
 				</a>

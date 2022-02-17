@@ -1,14 +1,14 @@
 import React from "react";
 
 const FreeTimeTopicTable = ({ data, column }) => {
-	console.log(data);
-	console.log(column);
-
 	return (
 		<div className="table-responsive">
 			<table className="table-dark table-striped table-hover table align-middle">
 				<thead>
-					<tr>
+					<tr className="text-end fs-5">
+						<p>Ranking de Temas más gustados </p>
+					</tr>
+					<tr className="fs-5">
 						{column.map((item, index) => (
 							<TableHeadItem item={item} />
 						))}
@@ -27,7 +27,7 @@ const FreeTimeTopicTable = ({ data, column }) => {
 const TableHeadItem = ({ item }) => <th scope="col">{item.heading}</th>;
 
 const TableRow = ({ item, column }) => (
-	<tr>
+	<tr className="fs-5">
 		{column.map((columnItem, index) => {
 			return <td>{item[`${columnItem.value}`]}</td>;
 		})}

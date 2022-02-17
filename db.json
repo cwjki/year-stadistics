@@ -1,424 +1,798 @@
 {
-	"posts": [
-		{
-			"id": 1,
-			"title": "json-server",
-			"author": "typicode"
-		},
-		{
-			"humor1": ["2"],
-			"humor2": ["6"],
-			"humor4": ["3"],
-			"humor5": ["6"],
-			"humor6": ["7"],
-			"humor7": ["6"],
-			"humor8": ["3"],
-			"humor9": ["6"],
-			"humor10": ["1"],
-			"humor12": ["7"],
-			"humor11": ["7"],
-			"humor13": ["6"],
-			"humor14": ["6"],
-			"humor15": ["7"],
-			"humor16": ["2"],
-			"humor17": ["4"],
-			"humor18": ["7"],
-			"humor19": ["6"],
-			"humor20": ["7"],
-			"humor3": ["7"],
-			"id": 2
-		},
-		{
-			"question1": ["1"],
-			"question2": ["0"],
-			"question3": ["1"],
-			"question4": ["0"],
-			"question5": ["2"],
-			"question6": ["0"],
-			"question7": ["3"],
-			"question8": ["1"],
-			"question9": ["0"],
-			"question10": ["0"],
-			"question11": ["1"],
-			"question12": ["3"],
-			"question13": ["1"],
-			"question14": ["0"],
-			"question15": ["0"],
-			"question16": ["1"],
-			"question17": ["0"],
-			"question18": ["0"],
-			"question19": ["2"],
-			"question20": ["1"],
-			"question22": ["3"],
-			"question21": ["1"],
-			"question23": ["0"],
-			"question24": ["0"],
-			"question25": ["0"],
-			"question26": ["0"],
-			"question27": ["1"],
-			"question28": ["0"],
-			"question29": ["0"],
-			"question30": ["3"],
-			"question31": ["1"],
-			"question32": ["0"],
-			"question33": ["0"],
-			"question34": ["2"],
-			"question35": ["1"],
-			"question36": ["1"],
-			"question37": ["2"],
-			"question38": ["2"],
-			"question39": ["2"],
-			"question40": [
-				"0#alamoda",
-				"2#independiente",
-				"2#dinamica",
-				"1#informal",
-				"1#dementeabierta",
-				"0#severa",
-				"2#observador",
-				"0#impulsiva",
-				"1#largavision",
-				"2#original"
-			],
-			"id": 3
-		},
-		{
-			"subjects": {
-				"Álgebra ": "Me gustó",
-				"Análisis Matemático": "Meh...",
-				"Programación": "Me gustó",
-				"Filosofía": "Me gustó",
-				"Lógica": "No me gustó"
-			},
-			"id": 4
-		},
-		{
-			"deportes": ["Fútbol"],
-			"entrenamientos": ["Spinnig"],
-			"tv": ["none"],
-			"tvGender": ["Animados"],
-			"programs": ["Cocina", "Reality"],
-			"sagas": ["Universo DC", "other"],
-			"sagas-Comment": "alishflkahslf",
-			"films": ["La vida es bella", "El silencio de los corderos"],
-			"cartoons": ["El viaje de Chihiro "],
-			"series": ["The Sopranos"],
-			"animes": ["Kimetsu no Yaiba"],
-			"videogamesGender": ["Puzzle"],
-			"videogamesFav": ["Red Dead Redemption\t Persona 5 Royal"],
-			"musicGender": ["none"],
-			"artists": ["The Beatles", "other"],
-			"artists-Comment": "aslhflahsflkasf",
-			"bookType": ["Romántica"],
-			"authors": ["Ernest Hemingway"],
-			"id": 5
-		},
-		{
-			"subjects": {
-				"Lógica": "Meh...",
-				"Álgebra I": "Me gustó",
-				"Análisis Matemático I": "Me gustó",
-				"Filosofía y Sociedad": "Me gustó",
-				"Educación Física I": "Meh...",
-				"Álgebra II": "Meh...",
-				"Análisis Matemático II": "No me gustó",
-				"Historia de Cuba": "Me gustó",
-				"Economía Política": "Meh...",
-				"Educación Física II": "No me gustó",
-				"Programación": "Meh..."
-			},
-			"id": 7
-		},
-		{
-			"deportes": [
-				"Fútbol",
-				"Baloncesto",
-				"Béisbol",
-				"Artes Marciales",
-				"Natación",
-				"Tenis"
-			],
-			"entrenamientos": ["none"],
-			"tv": ["Documentales"],
-			"tvGender": ["Terror"],
-			"programs": [
-				"Cocina",
-				"Supervivencia",
-				"Entrevistas a celebridades",
-				"Concursos",
-				"Reality",
-				"Noticieros",
-				"Humorísticos"
-			],
-			"sagas": ["007", "Star Wars"],
-			"films": ["Saving Private Ryan", "other"],
-			"films-Comment": "Viva Cuba",
-			"cartoons": ["other"],
-			"cartoons-Comment": "Elpidio Valdes",
-			"series": ["other"],
-			"series-Comment": "La novela brasilena",
-			"animes": ["Kimetsu no Yaiba"],
-			"videogamesGender": ["Peleas"],
-			"videogamesFav": ["Uncharted\t The Witcher"],
-			"musicGender": ["Hip Hop"],
-			"artists": ["The Beatles"],
-			"bookType": ["Historietas"],
-			"authors": ["Haruki Murakami"],
-			"id": 8
-		},
-		{
-			"deportes": [
-				"Fútbol",
-				"Baloncesto",
-				"Béisbol",
-				"Artes Marciales",
-				"Natación",
-				"Tenis"
-			],
-			"entrenamientos": [
-				"Gimnacio",
-				"Yoga",
-				"Spinnig",
-				"Jogging ",
-				"Crossfit",
-				"Pilates"
-			],
-			"tv": [
-				"Películas",
-				"Series",
-				"Telenovelas",
-				"Documentales",
-				"Anime",
-				"Doramas",
-				"Shows "
-			],
-			"tvGender": ["Aventura"],
-			"programs": ["Concursos"],
-			"sagas": ["The Matrix"],
-			"films": ["Léon: The Professional"],
-			"cartoons": ["Madagascar"],
-			"series": ["House of Cards"],
-			"animes": ["Jujutsu Kaisen", "Fairy Tail"],
-			"videogamesGender": ["Juegos de Rol (RPG)"],
-			"videogamesFav": [
-				"Fifa",
-				"Call of Duty",
-				"Dota",
-				"Axie Infinity",
-				"The Legend of Zelda",
-				"Red Dead Redemption\t Persona 5 Royal",
-				"Super Smash Bros\t Super Mario",
-				"The Last of Us",
-				"Forza Horizon\t Grand Theft Auto",
-				"God of War",
-				"Fortnite",
-				"StarCraft",
-				"The Elder Scrolls V: Skyrim",
-				"Sekiro: Shadows Die Twice",
-				"BioShock",
-				"Uncharted\t The Witcher",
-				"Bloodborne\t Divinity",
-				"Minecraft",
-				"Doom",
-				"Just Dance",
-				"Dark Souls",
-				"Final Fantasy",
-				"Pokémon",
-				"Dragon Quest",
-				"Fallout",
-				"Crysis",
-				"Mario Kart",
-				"Monster Hunter",
-				"Warcraft",
-				"Far Cry",
-				"Batman",
-				"League of Legends",
-				"Rust",
-				"VALORANT",
-				"Garena Free Fire",
-				"Counter-Strike: Global Offensive",
-				"Assassin's Creed",
-				"Clash Royale",
-				" Among Us",
-				"PlayerUnknown's Battlegrounds",
-				" Cyberpunk 2077",
-				"Battlefield",
-				"Halo"
-			],
-			"musicGender": ["Metal"],
-			"artists": ["The Beatles"],
-			"bookType": ["Misterio"],
-			"authors": ["Eduardo Galeano"],
-			"id": 9
-		},
-		{
-			"Practicar Deportes": ["Artes Marciales"],
-			"Entrenar": ["other"],
-			"Entrenar-Comment": "hifiashflkasf",
-			"Ver TV": [
-				"Películas",
-				"Series",
-				"Telenovelas",
-				"Documentales",
-				"Anime",
-				"Doramas",
-				"Shows "
-			],
-			"Géneros TV": ["Biografía"],
-			"Programas TV": ["Cocina"],
-			"Sagas Favoritas": ["007", "Universo Marvel"],
-			"Películas Favoritas": ["Braveheart"],
-			"Series Favoritas": ["Entourage"],
-			"Animados Favoritos": ["Mulán"],
-			"Animes Favoritos": ["Bleach"],
-			"Géneros Videojuegos": ["Juegos de Rol (RPG)"],
-			"Videojuegos Favoritos": ["Fortnite"],
-			"Géneros Musicales": ["Metal"],
-			"Artistas Favoritos": ["Eminem", "Spice Girls"],
-			"Literatura Favorita": ["Romántica"],
-			"Autores Favoritos": ["Franz Kafka"],
-			"id": 10
-		}
-	],
-	"comments": [
-		{
-			"id": 1,
-			"body": "some comment",
-			"postId": 1
-		}
-	],
-	"profile": {
-		"name": "typicode"
-	},
-	"subjects": [
-		{
-			"name": "Álgebra I",
-			"likes": 3,
-			"dislikes": 1,
-			"dontcare": 5
-		},
-		{
-			"name": "Álgebra II",
-			"likes": 3,
-			"dislikes": 2,
-			"dontcare": 1
-		},
-		{
-			"name": "Análisis Matemático I",
-			"likes": 1,
-			"dislikes": 3,
-			"dontcare": 3
-		},
-		{
-			"name": "Análisis Matemático II",
-			"likes": 0,
-			"dislikes": 0,
-			"dontcare": 3
-		},
-		{
-			"name": "Programación",
-			"likes": 0,
-			"dislikes": 0,
-			"dontcare": 3
-		},
-		{
-			"name": "Filosofía y Sociedad",
-			"likes": 0,
-			"dislikes": 3,
-			"dontcare": 0
-		},
-		{
-			"name": "Lógica",
-			"likes": 3,
-			"dislikes": 0,
-			"dontcare": 0
-		},
-		{
-			"name": "Educación Física I",
-			"likes": 1,
-			"dislikes": 2,
-			"dontcare": 6
-		},
-		{
-			"name": "Educación Física II",
-			"likes": 12,
-			"dislikes": 2,
-			"dontcare": 8
-		},
-		{
-			"name": "Economía Política",
-			"likes": 12,
-			"dislikes": 2,
-			"dontcare": 8
-		},
-		{
-			"name": "Historia de Cuba",
-			"likes": 10,
-			"dislikes": 3,
-			"dontcare": 7
-		}
-	],
-	"creativity": [
-		{
-			"no creativo": 10,
-			"debajo promedio": 14,
-			"promedio": 6,
-			"encima promedio": 9,
-			"muy creativo": 5,
-			"excepcional": 2
-		}
-	],
-	"humor": [
-		{
-			"serio": 4,
-			"pobre": 6,
-			"justo": 5,
-			"promedio": 10,
-			"excelente": 8
-		}
-	],
-	"topics": [
-		{
-			"name": "Practicar Deportes",
-			"votes": 10
-		},
-		{
-			"name": "Peliculas Favoritas",
-			"votes": 8
-		},
-		{
-			"name": "Autores Favoritos",
-			"votes": 6
-		},
-		{
-			"name": "Artistas Favoritas",
-			"votes": 4
-		},
-		{
-			"name": "Peliculas Favoritas",
-			"votes": 2
-		}
-	],
-	"subtopics": [
-		{
-			"name": "Futbol",
-			"votes": 10
-		},
-		{
-			"name": "Pelota",
-			"votes": 8
-		},
-		{
-			"name": "Lady Gaga",
-			"votes": 6
-		},
-		{
-			"name": "Jose Marti",
-			"votes": 4
-		},
-		{
-			"name": "Titanic",
-			"votes": 2
-		}
-	]
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "humor1": [
+        "2"
+      ],
+      "humor2": [
+        "6"
+      ],
+      "humor4": [
+        "3"
+      ],
+      "humor5": [
+        "6"
+      ],
+      "humor6": [
+        "7"
+      ],
+      "humor7": [
+        "6"
+      ],
+      "humor8": [
+        "3"
+      ],
+      "humor9": [
+        "6"
+      ],
+      "humor10": [
+        "1"
+      ],
+      "humor12": [
+        "7"
+      ],
+      "humor11": [
+        "7"
+      ],
+      "humor13": [
+        "6"
+      ],
+      "humor14": [
+        "6"
+      ],
+      "humor15": [
+        "7"
+      ],
+      "humor16": [
+        "2"
+      ],
+      "humor17": [
+        "4"
+      ],
+      "humor18": [
+        "7"
+      ],
+      "humor19": [
+        "6"
+      ],
+      "humor20": [
+        "7"
+      ],
+      "humor3": [
+        "7"
+      ],
+      "id": 2
+    },
+    {
+      "question1": [
+        "1"
+      ],
+      "question2": [
+        "0"
+      ],
+      "question3": [
+        "1"
+      ],
+      "question4": [
+        "0"
+      ],
+      "question5": [
+        "2"
+      ],
+      "question6": [
+        "0"
+      ],
+      "question7": [
+        "3"
+      ],
+      "question8": [
+        "1"
+      ],
+      "question9": [
+        "0"
+      ],
+      "question10": [
+        "0"
+      ],
+      "question11": [
+        "1"
+      ],
+      "question12": [
+        "3"
+      ],
+      "question13": [
+        "1"
+      ],
+      "question14": [
+        "0"
+      ],
+      "question15": [
+        "0"
+      ],
+      "question16": [
+        "1"
+      ],
+      "question17": [
+        "0"
+      ],
+      "question18": [
+        "0"
+      ],
+      "question19": [
+        "2"
+      ],
+      "question20": [
+        "1"
+      ],
+      "question22": [
+        "3"
+      ],
+      "question21": [
+        "1"
+      ],
+      "question23": [
+        "0"
+      ],
+      "question24": [
+        "0"
+      ],
+      "question25": [
+        "0"
+      ],
+      "question26": [
+        "0"
+      ],
+      "question27": [
+        "1"
+      ],
+      "question28": [
+        "0"
+      ],
+      "question29": [
+        "0"
+      ],
+      "question30": [
+        "3"
+      ],
+      "question31": [
+        "1"
+      ],
+      "question32": [
+        "0"
+      ],
+      "question33": [
+        "0"
+      ],
+      "question34": [
+        "2"
+      ],
+      "question35": [
+        "1"
+      ],
+      "question36": [
+        "1"
+      ],
+      "question37": [
+        "2"
+      ],
+      "question38": [
+        "2"
+      ],
+      "question39": [
+        "2"
+      ],
+      "question40": [
+        "0#alamoda",
+        "2#independiente",
+        "2#dinamica",
+        "1#informal",
+        "1#dementeabierta",
+        "0#severa",
+        "2#observador",
+        "0#impulsiva",
+        "1#largavision",
+        "2#original"
+      ],
+      "id": 3
+    },
+    {
+      "subjects": {
+        "Álgebra ": "Me gustó",
+        "Análisis Matemático": "Meh...",
+        "Programación": "Me gustó",
+        "Filosofía": "Me gustó",
+        "Lógica": "No me gustó"
+      },
+      "id": 4
+    },
+    {
+      "deportes": [
+        "Fútbol"
+      ],
+      "entrenamientos": [
+        "Spinnig"
+      ],
+      "tv": [
+        "none"
+      ],
+      "tvGender": [
+        "Animados"
+      ],
+      "programs": [
+        "Cocina",
+        "Reality"
+      ],
+      "sagas": [
+        "Universo DC",
+        "other"
+      ],
+      "sagas-Comment": "alishflkahslf",
+      "films": [
+        "La vida es bella",
+        "El silencio de los corderos"
+      ],
+      "cartoons": [
+        "El viaje de Chihiro "
+      ],
+      "series": [
+        "The Sopranos"
+      ],
+      "animes": [
+        "Kimetsu no Yaiba"
+      ],
+      "videogamesGender": [
+        "Puzzle"
+      ],
+      "videogamesFav": [
+        "Red Dead Redemption\t Persona 5 Royal"
+      ],
+      "musicGender": [
+        "none"
+      ],
+      "artists": [
+        "The Beatles",
+        "other"
+      ],
+      "artists-Comment": "aslhflahsflkasf",
+      "bookType": [
+        "Romántica"
+      ],
+      "authors": [
+        "Ernest Hemingway"
+      ],
+      "id": 5
+    },
+    {
+      "subjects": {
+        "Lógica": "Meh...",
+        "Álgebra I": "Me gustó",
+        "Análisis Matemático I": "Me gustó",
+        "Filosofía y Sociedad": "Me gustó",
+        "Educación Física I": "Meh...",
+        "Álgebra II": "Meh...",
+        "Análisis Matemático II": "No me gustó",
+        "Historia de Cuba": "Me gustó",
+        "Economía Política": "Meh...",
+        "Educación Física II": "No me gustó",
+        "Programación": "Meh..."
+      },
+      "id": 7
+    },
+    {
+      "deportes": [
+        "Fútbol",
+        "Baloncesto",
+        "Béisbol",
+        "Artes Marciales",
+        "Natación",
+        "Tenis"
+      ],
+      "entrenamientos": [
+        "none"
+      ],
+      "tv": [
+        "Documentales"
+      ],
+      "tvGender": [
+        "Terror"
+      ],
+      "programs": [
+        "Cocina",
+        "Supervivencia",
+        "Entrevistas a celebridades",
+        "Concursos",
+        "Reality",
+        "Noticieros",
+        "Humorísticos"
+      ],
+      "sagas": [
+        "007",
+        "Star Wars"
+      ],
+      "films": [
+        "Saving Private Ryan",
+        "other"
+      ],
+      "films-Comment": "Viva Cuba",
+      "cartoons": [
+        "other"
+      ],
+      "cartoons-Comment": "Elpidio Valdes",
+      "series": [
+        "other"
+      ],
+      "series-Comment": "La novela brasilena",
+      "animes": [
+        "Kimetsu no Yaiba"
+      ],
+      "videogamesGender": [
+        "Peleas"
+      ],
+      "videogamesFav": [
+        "Uncharted\t The Witcher"
+      ],
+      "musicGender": [
+        "Hip Hop"
+      ],
+      "artists": [
+        "The Beatles"
+      ],
+      "bookType": [
+        "Historietas"
+      ],
+      "authors": [
+        "Haruki Murakami"
+      ],
+      "id": 8
+    },
+    {
+      "deportes": [
+        "Fútbol",
+        "Baloncesto",
+        "Béisbol",
+        "Artes Marciales",
+        "Natación",
+        "Tenis"
+      ],
+      "entrenamientos": [
+        "Gimnacio",
+        "Yoga",
+        "Spinnig",
+        "Jogging ",
+        "Crossfit",
+        "Pilates"
+      ],
+      "tv": [
+        "Películas",
+        "Series",
+        "Telenovelas",
+        "Documentales",
+        "Anime",
+        "Doramas",
+        "Shows "
+      ],
+      "tvGender": [
+        "Aventura"
+      ],
+      "programs": [
+        "Concursos"
+      ],
+      "sagas": [
+        "The Matrix"
+      ],
+      "films": [
+        "Léon: The Professional"
+      ],
+      "cartoons": [
+        "Madagascar"
+      ],
+      "series": [
+        "House of Cards"
+      ],
+      "animes": [
+        "Jujutsu Kaisen",
+        "Fairy Tail"
+      ],
+      "videogamesGender": [
+        "Juegos de Rol (RPG)"
+      ],
+      "videogamesFav": [
+        "Fifa",
+        "Call of Duty",
+        "Dota",
+        "Axie Infinity",
+        "The Legend of Zelda",
+        "Red Dead Redemption\t Persona 5 Royal",
+        "Super Smash Bros\t Super Mario",
+        "The Last of Us",
+        "Forza Horizon\t Grand Theft Auto",
+        "God of War",
+        "Fortnite",
+        "StarCraft",
+        "The Elder Scrolls V: Skyrim",
+        "Sekiro: Shadows Die Twice",
+        "BioShock",
+        "Uncharted\t The Witcher",
+        "Bloodborne\t Divinity",
+        "Minecraft",
+        "Doom",
+        "Just Dance",
+        "Dark Souls",
+        "Final Fantasy",
+        "Pokémon",
+        "Dragon Quest",
+        "Fallout",
+        "Crysis",
+        "Mario Kart",
+        "Monster Hunter",
+        "Warcraft",
+        "Far Cry",
+        "Batman",
+        "League of Legends",
+        "Rust",
+        "VALORANT",
+        "Garena Free Fire",
+        "Counter-Strike: Global Offensive",
+        "Assassin's Creed",
+        "Clash Royale",
+        " Among Us",
+        "PlayerUnknown's Battlegrounds",
+        " Cyberpunk 2077",
+        "Battlefield",
+        "Halo"
+      ],
+      "musicGender": [
+        "Metal"
+      ],
+      "artists": [
+        "The Beatles"
+      ],
+      "bookType": [
+        "Misterio"
+      ],
+      "authors": [
+        "Eduardo Galeano"
+      ],
+      "id": 9
+    },
+    {
+      "Practicar Deportes": [
+        "Artes Marciales"
+      ],
+      "Entrenar": [
+        "other"
+      ],
+      "Entrenar-Comment": "hifiashflkasf",
+      "Ver TV": [
+        "Películas",
+        "Series",
+        "Telenovelas",
+        "Documentales",
+        "Anime",
+        "Doramas",
+        "Shows "
+      ],
+      "Géneros TV": [
+        "Biografía"
+      ],
+      "Programas TV": [
+        "Cocina"
+      ],
+      "Sagas Favoritas": [
+        "007",
+        "Universo Marvel"
+      ],
+      "Películas Favoritas": [
+        "Braveheart"
+      ],
+      "Series Favoritas": [
+        "Entourage"
+      ],
+      "Animados Favoritos": [
+        "Mulán"
+      ],
+      "Animes Favoritos": [
+        "Bleach"
+      ],
+      "Géneros Videojuegos": [
+        "Juegos de Rol (RPG)"
+      ],
+      "Videojuegos Favoritos": [
+        "Fortnite"
+      ],
+      "Géneros Musicales": [
+        "Metal"
+      ],
+      "Artistas Favoritos": [
+        "Eminem",
+        "Spice Girls"
+      ],
+      "Literatura Favorita": [
+        "Romántica"
+      ],
+      "Autores Favoritos": [
+        "Franz Kafka"
+      ],
+      "id": 10
+    },
+    {
+      "humor1": [
+        "2"
+      ],
+      "humor2": [
+        "2"
+      ],
+      "humor3": [
+        "3"
+      ],
+      "humor4": [
+        "7"
+      ],
+      "humor5": [
+        "6"
+      ],
+      "humor6": [
+        "6"
+      ],
+      "humor7": [
+        "3"
+      ],
+      "humor8": [
+        "7"
+      ],
+      "humor9": [
+        "6"
+      ],
+      "humor10": [
+        "1"
+      ],
+      "humor11": [
+        "6"
+      ],
+      "humor12": [
+        "6"
+      ],
+      "humor13": [
+        "7"
+      ],
+      "humor14": [
+        "6"
+      ],
+      "humor15": [
+        "7"
+      ],
+      "humor16": [
+        "2"
+      ],
+      "humor17": [
+        "7"
+      ],
+      "humor18": [
+        "7"
+      ],
+      "humor19": [
+        "7"
+      ],
+      "humor20": [
+        "6"
+      ],
+      "id": 11
+    },
+    {
+      "subjects": {
+        "Lógica": "Meh...",
+        "Análisis Matemático I": "Me gustó",
+        "Educación Física I": "Meh...",
+        "Álgebra I": "Me gustó",
+        "Programación": "Me gustó",
+        "Filosofía y Sociedad": "Me gustó",
+        "Álgebra II": "Me gustó",
+        "Análisis Matemático II": "Me gustó",
+        "Historia de Cuba": "Me gustó",
+        "Economía Política": "Me gustó",
+        "Educación Física II": "Me gustó"
+      },
+      "id": 12
+    },
+    {
+      "Practicar Deportes": [
+        "Fútbol"
+      ],
+      "Entrenar": [
+        "Spinnig"
+      ],
+      "Ver TV": [
+        "Documentales"
+      ],
+      "Géneros TV": [
+        "Aventura"
+      ],
+      "Programas TV": [
+        "Entrevistas a celebridades"
+      ],
+      "Sagas Favoritas": [
+        "other"
+      ],
+      "Sagas Favoritas-Comment": "aishfiashfi",
+      "Películas Favoritas": [
+        "El silencio de los corderos",
+        "Pulp Fiction",
+        "La vida es bella"
+      ],
+      "Series Favoritas": [
+        "Spartacus"
+      ],
+      "Animados Favoritos": [
+        "Despicable Me"
+      ],
+      "Animes Favoritos": [
+        "Fairy Tail"
+      ],
+      "Géneros Videojuegos": [
+        "Puzzle"
+      ],
+      "Videojuegos Favoritos": [
+        "Dark Souls"
+      ],
+      "Géneros Musicales": [
+        "Country"
+      ],
+      "Artistas Favoritos": [
+        "The Beatles"
+      ],
+      "Literatura Favorita": [
+        "Misterio"
+      ],
+      "Autores Favoritos": [
+        "Gabriela Mistral"
+      ],
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "subjects": [
+    {
+      "name": "Álgebra I",
+      "likes": 3,
+      "dislikes": 1,
+      "dontcare": 5
+    },
+    {
+      "name": "Álgebra II",
+      "likes": 3,
+      "dislikes": 2,
+      "dontcare": 1
+    },
+    {
+      "name": "Análisis Matemático I",
+      "likes": 1,
+      "dislikes": 3,
+      "dontcare": 3
+    },
+    {
+      "name": "Análisis Matemático II",
+      "likes": 0,
+      "dislikes": 0,
+      "dontcare": 3
+    },
+    {
+      "name": "Programación",
+      "likes": 0,
+      "dislikes": 0,
+      "dontcare": 3
+    },
+    {
+      "name": "Filosofía y Sociedad",
+      "likes": 0,
+      "dislikes": 3,
+      "dontcare": 0
+    },
+    {
+      "name": "Lógica",
+      "likes": 3,
+      "dislikes": 0,
+      "dontcare": 0
+    },
+    {
+      "name": "Educación Física I",
+      "likes": 1,
+      "dislikes": 2,
+      "dontcare": 6
+    },
+    {
+      "name": "Educación Física II",
+      "likes": 12,
+      "dislikes": 2,
+      "dontcare": 8
+    },
+    {
+      "name": "Economía Política",
+      "likes": 12,
+      "dislikes": 2,
+      "dontcare": 8
+    },
+    {
+      "name": "Historia de Cuba",
+      "likes": 10,
+      "dislikes": 3,
+      "dontcare": 7
+    }
+  ],
+  "creativity": [
+    {
+      "no creativo": 10,
+      "debajo promedio": 14,
+      "promedio": 6,
+      "encima promedio": 9,
+      "muy creativo": 5,
+      "excepcional": 2
+    }
+  ],
+  "humor": [
+    {
+      "serio": 4,
+      "pobre": 6,
+      "justo": 5,
+      "promedio": 10,
+      "excelente": 8
+    }
+  ],
+  "topics": [
+    {
+      "name": "Practicar Deportes",
+      "votes": 10
+    },
+    {
+      "name": "Peliculas Favoritas",
+      "votes": 8
+    },
+    {
+      "name": "Autores Favoritos",
+      "votes": 6
+    },
+    {
+      "name": "Artistas Favoritas",
+      "votes": 4
+    },
+    {
+      "name": "Peliculas Favoritas",
+      "votes": 2
+    }
+  ],
+  "subtopics": [
+    {
+      "name": "Futbol",
+      "votes": 10
+    },
+    {
+      "name": "Pelota",
+      "votes": 3
+    },
+    {
+      "name": "Lady Gaga",
+      "votes": 4
+    },
+    {
+      "name": "Jose Marti",
+      "votes": 4
+    },
+    {
+      "name": "Titanic",
+      "votes": 2
+    }
+  ]
 }

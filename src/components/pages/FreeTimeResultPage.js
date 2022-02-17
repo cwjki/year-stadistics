@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import FreeTimeTopicTable from "../tables/FreeTimeTopicTable";
-import SuFreeTimeSubtopicTablebjectTable from "../tables/FreeTimeSubtopicTable";
+import FreeTimeSubtopicTable from "../tables/FreeTimeSubtopicTable";
 
 import axios from "axios";
 
@@ -48,8 +48,8 @@ const FreeTimeResultPage = () => {
 				<FreeTimeTopicTable data={topicData} column={column1} />
 			</div>
 
-			<div className="container">
-				<FreeTimeTopicTable data={subtopicData} column={column2} />
+			<div className="container mt-5">
+				<FreeTimeSubtopicTable data={subtopicData} column={column2} />
 			</div>
 
 			<div>

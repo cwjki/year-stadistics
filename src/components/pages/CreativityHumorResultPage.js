@@ -37,7 +37,7 @@ const ResultPage = () => {
 				<CreativityChart data={creativityData} />
 			</div>
 
-			<div className="ms-5 mt-5">
+			<div className="ms-5 mt-5 p-4">
 				<HumorChart data={humorData} />
 			</div>
 		</div>
