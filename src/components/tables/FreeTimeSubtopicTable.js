@@ -1,14 +1,14 @@
 import React from "react";
 
-const SubjectsTable = ({ data, column }) => {
+const FreeTimeSubtopicTable = ({ data, column }) => {
+	console.log(data);
+	console.log(column);
+
 	return (
 		<div className="table-responsive">
 			<table className="table-dark table-striped table-hover table align-middle">
 				<thead>
-					<tr className="text-end fs-5">
-						<p>Cantidad de votos obtenidos por categorías </p>
-					</tr>
-					<tr className="fs-5">
+					<tr>
 						{column.map((item, index) => (
 							<TableHeadItem item={item} />
 						))}
@@ -27,11 +27,11 @@ const SubjectsTable = ({ data, column }) => {
 const TableHeadItem = ({ item }) => <th scope="col">{item.heading}</th>;
 
 const TableRow = ({ item, column }) => (
-	<tr className="fs-5">
+	<tr>
 		{column.map((columnItem, index) => {
 			return <td>{item[`${columnItem.value}`]}</td>;
 		})}
 	</tr>
 );
 
-export default SubjectsTable;
+export default FreeTimeSubtopicTable;
