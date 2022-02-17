@@ -1,14 +1,12 @@
 import React from 'react'
 
 const SubjectsTable = ({ data, column }) => {
-    console.log(data)
-    console.log(column)
-
     return (
         <div className="table-responsive">
             <table className='table table-dark table-striped table-hover align-middle'>
                 <thead>
-                    <tr>
+                    <tr className="text-end fs-5"><p>Cantidad de votos obtenidos por categorías </p></tr>
+                    <tr className="fs-5">
                         {column.map((item, index) => <TableHeadItem item={item}/>)}
                     </tr>
                 </thead>
@@ -26,7 +24,7 @@ const SubjectsTable = ({ data, column }) => {
 const TableHeadItem = ({ item }) => <th scope="col">{item.heading}</th>
 
 const TableRow = ({ item, column }) => (
-    <tr>
+    <tr className='fs-5'>
         {column.map((columnItem, index) => {
             return (
                 <td>{item[`${columnItem.value}`]}</td>
