@@ -22,11 +22,11 @@ const CreativityChart = ({ data }) => {
 				data={{
 					labels: [
 						"Nada de creatividad",
-						"Creatividad Pobre",
-						"Creatividad Promedio",
+						"Creatividad pobre",
+						"Creatividad promedio",
 						"Ligeramente mejor que el promedio",
 						"Buen índice de creatividad",
-						"Creatividad Excepcional",
+						"Creatividad excepcional",
 					],
 					datasets: [
 						{
