@@ -14,11 +14,13 @@ const ResultPage = () => {
 	const [creativityData, setCreativityData] = useState([]);
 
 	useEffect(() => {
-		axios("http://localhost:8000/creativity")
+		axios
+			.get("http://localhost:8000/creativity")
 			.then((res) => setCreativityData(res.data))
 			.catch((err) => console.log(err));
 
-		axios("http://localhost:8000/humor")
+		axios
+			.get("http://localhost:8000/humor")
 			.then((res) => setHumorData(res.data))
 			.catch((err) => console.log(err));
 	}, []);
@@ -43,7 +45,7 @@ const ResultPage = () => {
 				<CreativityChart data={creativityData} />
 			</div>
 
-			<div className="ms-5 mt-5 p-4">
+			<div className="mt-5 p-4">
 				<HumorChart data={humorData} />
 			</div>
 		</div>

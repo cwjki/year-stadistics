@@ -8,7 +8,8 @@ const SubjectsResultPage = () => {
 	const [dataTable, setDataTable] = useState([]);
 
 	useEffect(() => {
-		axios("http://localhost:8000/subjects")
+		axios
+			.get("http://localhost:8000/subjects")
 			.then((res) => setDataTable(res.data))
 			.catch((err) => console.log(err));
 	}, []);

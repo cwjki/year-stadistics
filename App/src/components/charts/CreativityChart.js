@@ -16,6 +16,11 @@ const CreativityChart = ({ data }) => {
 		data[0]["excepcional"],
 	];
 
+	let reducer = (accumulator, curr) => accumulator + curr
+	let sumTotal = creativityData.reduce(reducer)
+	let total = `Encuestados: ${sumTotal}`
+	
+
 	return (
 		<div className="CreativityChart">
 			<Doughnut
@@ -71,6 +76,14 @@ const CreativityChart = ({ data }) => {
 							position: "top",
 							font: {
 								size: 28,
+							},
+						},
+						subtitle: {
+							display: "true",
+							text: total,
+							position: "bottom",
+							font: {
+								size: 21,
 							},
 						},
 					},

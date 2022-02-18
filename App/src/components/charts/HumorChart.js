@@ -15,6 +15,10 @@ const HumorChart = ({ data }) => {
 		data[0].excelente,
 	];
 
+	let reducer = (accumulator, curr) => accumulator + curr;
+	let sumTotal = humorData.reduce(reducer);
+	let total = `Encuestados: ${sumTotal}`;
+
 	return (
 		<div className="HumorChart">
 			<Doughnut
@@ -67,6 +71,14 @@ const HumorChart = ({ data }) => {
 							position: "top",
 							font: {
 								size: 28,
+							},
+						},
+						subtitle: {
+							display: "true",
+							text: total,
+							position: "bottom",
+							font: {
+								size: 21,
 							},
 						},
 					},

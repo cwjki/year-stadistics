@@ -12,11 +12,13 @@ const FreeTimeResultPage = () => {
 	const [subtopicData, setSubtopicData] = useState([]);
 
 	useEffect(() => {
-		axios("http://localhost:8000/topics")
+		axios
+			.get("http://localhost:8000/topics")
 			.then((res) => setTopicData(res.data))
 			.catch((err) => console.log(err));
 
-		axios("http://localhost:8000/subtopics")
+		axios
+			.get("http://localhost:8000/subtopics")
 			.then((res) => setSubtopicData(res.data))
 			.catch((err) => console.log(err));
 	}, []);
