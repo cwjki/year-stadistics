@@ -3,6 +3,12 @@ import CreativityChart from "../charts/CreativityChart";
 import HumorChart from "../charts/HumorChart";
 import axios from "axios";
 
+// const creativityUrl =
+// 	"http://127.0.0.1:8000/process-years-particularities/creativity";
+
+// 	const humorUrl =
+// 		"http://127.0.0.1:8000/process-years-particularities/humor";
+
 const ResultPage = () => {
 	const [humorData, setHumorData] = useState([]);
 	const [creativityData, setCreativityData] = useState([]);

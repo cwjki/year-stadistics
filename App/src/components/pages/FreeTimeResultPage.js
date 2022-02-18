@@ -4,6 +4,9 @@ import FreeTimeSubtopicTable from "../tables/FreeTimeSubtopicTable";
 
 import axios from "axios";
 
+// const topicsUrl = "http://127.0.0.1:8000/process-most-popular-themes/";
+// const subtopicUrl = "http://127.0.0.1:8000/process-most-popular-subthemes/";
+
 const FreeTimeResultPage = () => {
 	const [topicData, setTopicData] = useState([]);
 	const [subtopicData, setSubtopicData] = useState([]);

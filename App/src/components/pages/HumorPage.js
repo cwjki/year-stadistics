@@ -3,6 +3,8 @@ import axios from "axios";
 import HumorSurvey from "../surveys/HumorSurvey";
 import Thanks from "../Thanks";
 
+// const humorUrl = "http://127.0.0.1:8000/process-average-test/humor"
+
 const HumorPage = () => {
 	const [showPage, setShowPage] = useState(true);
 

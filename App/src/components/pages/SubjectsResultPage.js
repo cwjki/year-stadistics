@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import SubjectTable from "../tables/SubjectsTable";
 import axios from "axios";
 
+// const subjectsUrl = "http://127.0.0.1:8000/process-subject-test-all-result"
+
 const SubjectsResultPage = () => {
 	const [dataTable, setDataTable] = useState([]);
-	// console.log(dataTable)
 
 	useEffect(() => {
 		axios("http://localhost:8000/subjects")

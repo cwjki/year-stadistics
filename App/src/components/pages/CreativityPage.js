@@ -3,6 +3,8 @@ import CreativitySurvey from "../surveys/CreativitySurvey";
 import Thanks from "../Thanks";
 import axios from "axios";
 
+// const creativityUrl = "http://127.0.0.1:8000/process-average-test/creativity"
+
 const CreativityPage = () => {
 	const [showPage, setShowPage] = useState(true);
 

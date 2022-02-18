@@ -3,6 +3,8 @@ import SubjectsSurvey from "../surveys/SubjectsSurvey";
 import Thanks from "../Thanks";
 import axios from "axios";
 
+// const subjectsUrl = "http://127.0.0.1:8000/process-subject-test/"
+
 const SubjectsPage = () => {
 	const [showPage, setShowPage] = useState(true);
 

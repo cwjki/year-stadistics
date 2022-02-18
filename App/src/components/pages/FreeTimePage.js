@@ -3,6 +3,8 @@ import FreeTimeSurvey from "../surveys/FreeTimeSurvey";
 import Thanks from "../Thanks";
 import axios from "axios";
 
+// const freetimeUrl = "http://127.0.0.1:8000/questionnaire-response/"
+
 const FreeTimePage = () => {
 	const [showPage, setShowPage] = useState(true);
 
