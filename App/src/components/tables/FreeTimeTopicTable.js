@@ -6,7 +6,7 @@ const FreeTimeTopicTable = ({ data, column }) => {
 			<table className="table-dark table-striped table-hover table align-middle">
 				<thead>
 					<tr className="text-end fs-5">
-						<p>Ranking de Temas más gustados </p>
+						<p>Ranking de Temas más gustados &nbsp;&nbsp;&nbsp;&nbsp;</p>
 					</tr>
 					<tr className="fs-5">
 						{column.map((item, index) => (

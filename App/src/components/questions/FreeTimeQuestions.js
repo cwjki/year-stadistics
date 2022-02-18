@@ -218,7 +218,7 @@ const FreeTimeQuestions = {
 				{
 					type: "checkbox",
 					name: "Animados Favoritos",
-					title: "¿Cuáles son tus muñes adoras? ",
+					title: "¿Cuáles muñes adoras? ",
 					isRequired: true,
 					choices: [
 						"La Era del Hielo",

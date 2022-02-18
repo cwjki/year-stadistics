@@ -2,7 +2,6 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
-import Header from "./components/Thanks";
 import Nothing from "./components/Nothing";
 import HumorPage from "./components/pages/HumorPage";
 import AllSurveysPage from "./components/pages/AllSurveysPage";

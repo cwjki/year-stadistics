@@ -757,42 +757,54 @@
       "votes": 10
     },
     {
-      "name": "Peliculas Favoritas",
+      "name": "Películas Favoritas",
       "votes": 8
     },
     {
-      "name": "Autores Favoritos",
+      "name": "Series Favoritas",
       "votes": 6
     },
     {
-      "name": "Artistas Favoritas",
+      "name": "Artistas Favoritos",
       "votes": 4
     },
     {
-      "name": "Peliculas Favoritas",
+      "name": "Autores Favoritos",
       "votes": 2
     }
   ],
   "subtopics": [
-    {
-      "name": "Futbol",
-      "votes": 10
-    },
-    {
-      "name": "Pelota",
-      "votes": 3
-    },
-    {
-      "name": "Lady Gaga",
-      "votes": 4
-    },
-    {
-      "name": "Jose Marti",
-      "votes": 4
-    },
-    {
-      "name": "Titanic",
-      "votes": 2
-    }
-  ]
+		{
+			"name": "Fútbol",
+			"votes": 8
+		},
+		{
+			"name": "Game of Thrones",
+			"votes": 6
+		},
+		{
+			"name": "Titanic",
+			"votes": 5
+		},
+		{
+			"name": "Forrest Gump",
+			"votes": 3
+		},
+		{
+			"name": "Tenis",
+			"votes": 2
+		},
+		{
+			"name": "Coldplay",
+			"votes": 2
+		},
+		{
+			"name": "Lady Gaga",
+			"votes": 2
+		},
+		{
+			"name": "Nicolás Guillén",
+			"votes": 2
+		}
+	]
 }

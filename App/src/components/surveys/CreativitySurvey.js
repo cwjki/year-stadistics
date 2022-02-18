@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "survey-react/survey.css";
 import * as Survey from "survey-react";
 import CreativityQuestions from "../questions/CreativityQuestions";
