@@ -13,12 +13,12 @@ const FreeTimeResultPage = () => {
 
 	useEffect(() => {
 		axios
-			.get("http://localhost:8000/topics")
+			.get("https://dc82-71-19-251-145.ngrok.io/process-most-popular-themes/")
 			.then((res) => setTopicData(res.data))
 			.catch((err) => console.log(err));
 
 		axios
-			.get("http://localhost:8000/subtopics")
+			.get("https://dc82-71-19-251-145.ngrok.io/process-most-popular-themes/")
 			.then((res) => setSubtopicData(res.data))
 			.catch((err) => console.log(err));
 	}, []);

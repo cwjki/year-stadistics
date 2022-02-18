@@ -9,7 +9,7 @@ const SubjectsResultPage = () => {
 
 	useEffect(() => {
 		axios
-			.get("http://localhost:8000/subjects")
+			.get("https://dc82-71-19-251-145.ngrok.io/process-subject-test-all-result/")
 			.then((res) => setDataTable(res.data))
 			.catch((err) => console.log(err));
 	}, []);

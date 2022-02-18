@@ -11,7 +11,7 @@ const SubjectsPage = () => {
 	const onCompletePage = useCallback(
 		(data) => {
 			axios
-				.post("http://localhost:8000/posts", data)
+				.post("https://dc82-71-19-251-145.ngrok.io/process-subject-test/", data)
 				.then((res) => console.log(res))
 				.catch((err) => console.log(err));
 
