@@ -40,9 +40,9 @@ const ResultPage = () => {
 						<span className="border-secondary text-success border p-1 text-center">
 							<p className="mt-2">
 								{" "}
-								Los tests se realizarán de forma anónima, y por tanto, la
-								información que de ellos se extraiga NO será usada en su contra
-								:)
+								Los tests se realizarán de forma anónima, y por
+								tanto, la información que de ellos se extraiga
+								NO será usada en su contra :)
 							</p>
 						</span>
 					</nav>
