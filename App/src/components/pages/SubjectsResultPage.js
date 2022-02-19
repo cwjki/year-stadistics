@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import SubjectTable from "../tables/SubjectsTable";
 import axios from "axios";
 
-// const subjectsUrl = "http://127.0.0.1:8000/process-subject-test-all-result"
+const subjectsUrl = "http://127.0.0.1:8000/process-subject-test-all-result";
 
 const SubjectsResultPage = () => {
 	const [dataTable, setDataTable] = useState([]);
 
 	useEffect(() => {
 		axios
-			.get("https://dc82-71-19-251-145.ngrok.io/process-subject-test-all-result/")
+			.get(subjectsUrl)
 			.then((res) => setDataTable(res.data))
 			.catch((err) => console.log(err));
 	}, []);

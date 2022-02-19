@@ -4,8 +4,8 @@ import FreeTimeSubtopicTable from "../tables/FreeTimeSubtopicTable";
 
 import axios from "axios";
 
-// const topicsUrl = "http://127.0.0.1:8000/process-most-popular-themes/";
-// const subtopicUrl = "http://127.0.0.1:8000/process-most-popular-subthemes/";
+const topicsUrl = "http://127.0.0.1:8000/process-most-popular-themes/";
+const subtopicUrl = "http://127.0.0.1:8000/process-most-popular-subthemes/";
 
 const FreeTimeResultPage = () => {
 	const [topicData, setTopicData] = useState([]);
@@ -13,12 +13,12 @@ const FreeTimeResultPage = () => {
 
 	useEffect(() => {
 		axios
-			.get("https://dc82-71-19-251-145.ngrok.io/process-most-popular-themes/")
+			.get(topicsUrl)
 			.then((res) => setTopicData(res.data))
 			.catch((err) => console.log(err));
 
 		axios
-			.get("https://dc82-71-19-251-145.ngrok.io/process-most-popular-subthemes/")
+			.get(subtopicUrl)
 			.then((res) => setSubtopicData(res.data))
 			.catch((err) => console.log(err));
 	}, []);

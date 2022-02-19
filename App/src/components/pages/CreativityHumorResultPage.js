@@ -3,12 +3,10 @@ import CreativityChart from "../charts/CreativityChart";
 import HumorChart from "../charts/HumorChart";
 import axios from "axios";
 
+const creativityUrl =
+	"http://127.0.0.1:8000/process-years-particularities/creativity";
 
-// const creativityUrl =
-// 	"http://127.0.0.1:8000/process-years-particularities/creativity";
-
-// 	const humorUrl =
-// 		"http://127.0.0.1:8000/process-years-particularities/humor";
+const humorUrl = "http://127.0.0.1:8000/process-years-particularities/humor";
 
 const ResultPage = () => {
 	const [humorData, setHumorData] = useState([]);
@@ -16,16 +14,12 @@ const ResultPage = () => {
 
 	useEffect(() => {
 		axios
-			.get(
-				"https://dc82-71-19-251-145.ngrok.io/process-years-particularities/creativity"
-			)
+			.get(creativityUrl)
 			.then((res) => setCreativityData(res.data))
 			.catch((err) => console.log(err));
 
 		axios
-			.get(
-				"https://dc82-71-19-251-145.ngrok.io/process-years-particularities/humor"
-			)
+			.get(humorUrl)
 			.then((res) => setHumorData(res.data))
 			.catch((err) => console.log(err));
 	}, []);

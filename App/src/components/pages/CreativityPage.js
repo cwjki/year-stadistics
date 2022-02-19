@@ -3,7 +3,7 @@ import CreativitySurvey from "../surveys/CreativitySurvey";
 import Thanks from "../Thanks";
 import axios from "axios";
 
-// const creativityUrl = "http://127.0.0.1:8000/process-average-test/creativity"
+const creativityUrl = "http://127.0.0.1:8000/process-average-test/creativity"
 
 const CreativityPage = () => {
 	const [showPage, setShowPage] = useState(true);
@@ -11,7 +11,7 @@ const CreativityPage = () => {
 	const onCompletePage = useCallback(
 		(data) => {
 			axios
-				.post("https://dc82-71-19-251-145.ngrok.io/process-average-test/creativity", data)
+				.post(creativityUrl, data)
 				.then((res) => console.log(res))
 				.catch((err) => console.log(err));
 

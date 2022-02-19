@@ -3,7 +3,7 @@ import axios from "axios";
 import HumorSurvey from "../surveys/HumorSurvey";
 import Thanks from "../Thanks";
 
-// const humorUrl = "http://127.0.0.1:8000/process-average-test/humor"
+const humorUrl = "http://127.0.0.1:8000/process-average-test/humor";
 
 const HumorPage = () => {
 	const [showPage, setShowPage] = useState(true);
@@ -11,10 +11,7 @@ const HumorPage = () => {
 	const onCompletePage = useCallback(
 		(data) => {
 			axios
-				.post(
-					"https://dc82-71-19-251-145.ngrok.io/process-average-test/humor",
-					data
-				)
+				.post(humorUrl, data)
 				.then((res) => console.log(res))
 				.catch((err) => console.log(err));
 
@@ -30,7 +27,9 @@ const HumorPage = () => {
 	return (
 		<div>
 			{showPage ? (
-				<HumorSurvey showCompletedPage={(data) => onCompletePage(data)} />
+				<HumorSurvey
+					showCompletedPage={(data) => onCompletePage(data)}
+				/>
 			) : (
 				setFinalPage()
 			)}

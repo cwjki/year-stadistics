@@ -3,7 +3,7 @@ import SubjectsSurvey from "../surveys/SubjectsSurvey";
 import Thanks from "../Thanks";
 import axios from "axios";
 
-// const subjectsUrl = "http://127.0.0.1:8000/process-subject-test/"
+const subjectsUrl = "http://127.0.0.1:8000/process-subject-test/";
 
 const SubjectsPage = () => {
 	const [showPage, setShowPage] = useState(true);
@@ -11,7 +11,7 @@ const SubjectsPage = () => {
 	const onCompletePage = useCallback(
 		(data) => {
 			axios
-				.post("https://dc82-71-19-251-145.ngrok.io/process-subject-test/", data)
+				.post(subjectsUrl, data)
 				.then((res) => console.log(res))
 				.catch((err) => console.log(err));
 
@@ -27,7 +27,9 @@ const SubjectsPage = () => {
 	return (
 		<div>
 			{showPage ? (
-				<SubjectsSurvey showCompletedPage={(data) => onCompletePage(data)} />
+				<SubjectsSurvey
+					showCompletedPage={(data) => onCompletePage(data)}
+				/>
 			) : (
 				setFinalPage()
 			)}
