@@ -43,7 +43,7 @@ const AllSurveysPage = () => {
 				<span className="border-secondary text-success border p-1 text-center">
 					<p className="mt-2">
 						{" "}
-						Las tests se realizarán de forma anónima, y por tanto, la
+						Los tests se realizarán de forma anónima, y por tanto, la
 						información que de ellos se extraiga NO será usada en su contra :)
 					</p>
 				</span>
