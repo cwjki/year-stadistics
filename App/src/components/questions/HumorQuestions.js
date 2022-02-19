@@ -542,8 +542,7 @@ const HumorQuestions = {
 				{
 					type: "checkbox",
 					name: "humor15",
-					title:
-						"¿Utilizas tu sentido del humor para enfrentar situaciones difíciles?",
+					title: "¿Utilizas tu sentido del humor para enfrentar situaciones difíciles?",
 					isRequired: true,
 					choices: [
 						{
@@ -622,6 +621,12 @@ const HumorQuestions = {
 					title: "¿Esperas con ansias tus vacaciones?",
 					isRequired: true,
 					choices: [
+						{
+							value: "1",
+							text: {
+								es: "nunca",
+							},
+						},
 						{
 							value: "2",
 							text: "casi nunca",

@@ -18,7 +18,7 @@ const FreeTimeResultPage = () => {
 			.catch((err) => console.log(err));
 
 		axios
-			.get("https://dc82-71-19-251-145.ngrok.io/process-most-popular-themes/")
+			.get("https://dc82-71-19-251-145.ngrok.io/process-most-popular-subthemes/")
 			.then((res) => setSubtopicData(res.data))
 			.catch((err) => console.log(err));
 	}, []);
